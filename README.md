@@ -1,14 +1,14 @@
 ## ⚡ Wireless Digital Oscilloscope
 
 ## 1.Project Overview
-This project consists of a circuit which is capable of plotting input volatges (AC or DC) against time and thereby displaying a wave. It consists of 2 probes which can be connected between any 2 points and will plot the voltage between those points against time.
+This project consists of a circuit which is capable of plotting input volatges (AC or DC) against time and thereby displaying it on a web interface through Wi-fi as a wave. It consists of 2 probes which can be connected between any 2 points and will plot the voltage between those points against time.
 
 The display shows RMS voltage Average Voltage and Peak-to-Peak voltage for the wave and displays what type of wave it is. The scale on both axes and the offset along the vertical can be adjusted.
 
 The ESP-32 is powered through a USB cable from laptop making it easy to use with only the requirement of laptop and wifi.
 
 ## 2.Main Features
-* Real-time display of voltage vs. current.
+* Real-time display of voltage vs. time.
 * Important parameters regarding the wave are displayed.
 * Wave type is identified if it is triangular, sine or square wave.
 * Accurate for frequencies upto 50Hz.
@@ -35,4 +35,5 @@ The ESP-32 is powered through a USB cable from laptop making it easy to use with
 
 * ESPAsyncWebServer
 * AsyncTCP
+* Wifi
 
