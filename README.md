@@ -5,7 +5,7 @@ This project consists of a circuit which is capable of plotting input volatges (
 
 By implementing an offset circuit, the project enables the ESP to measure negative voltages alongside positive ones.
 
-The display shows RMS voltage Average Voltage and Peak-to-Peak voltage for the wave and displays what type of wave it is. The scale on both axes and the offset along the vertical can be adjusted.
+The display shows RMS voltage, Average Voltage and Peak-to-Peak voltage for the wave and displays what type of wave it is. The scale on both axes and the offset along the vertical can be adjusted.
 
 The ESP-32 is powered through a USB cable from laptop making it easy to use with only the requirement of laptop and wifi.
 
